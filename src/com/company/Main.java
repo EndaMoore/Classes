@@ -33,6 +33,10 @@ class Car {
         return "Car -> brake()";
     }
 
+    public String stop() {
+        return "Car -> stop()";
+    }
+
 }
 
 class Mitsubishi extends Car {
@@ -76,6 +80,11 @@ class Ford extends Car {
     @Override
     public String brake() {
         return "Ford -> brake()";
+    }
+
+    @Override
+    public String stop() {
+        return "Ford -> stop";
     }
 }
 
